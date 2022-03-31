@@ -51,7 +51,7 @@ class Empleado(Persona):
         
     
     def eliminarEmpleados(self):
-        ced=input("Ingrese la cédula del empleado a eliminar: ")
+        ced=input("Ingrese la cedula del empleado a eliminar: ")
         for empleado in range (len(self.lempleados)):
             
             if(self.lempleados[empleado][0]['Empleado']['Cédula']==ced):
